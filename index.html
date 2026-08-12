@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Support information and privacy guidance for the ThreadTuck browser extension."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#102a43" />
+    <title>ThreadTuck Support</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="shell header-row">
+        <a class="brand" href="index.html" aria-label="ThreadTuck support home">ThreadTuck</a>
+        <nav aria-label="Support navigation">
+          <a href="index.html" aria-current="page">Support</a>
+          <a href="privacy-policy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="shell">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Browser extension</p>
+        <h1 id="page-title">ThreadTuck support</h1>
+        <p class="lead">
+          ThreadTuck keeps a chosen number of recent conversation turns visible and lets you restore
+          older turns when you need them.
+        </p>
+        <a class="button" href="https://github.com/Rina48/threadtuck-support/issues">
+          Open a support issue
+        </a>
+      </section>
+
+      <section aria-labelledby="before-reporting">
+        <h2 id="before-reporting">Before you report a problem</h2>
+        <ol class="steps">
+          <li>Update your browser and ThreadTuck, then reload the affected tab.</li>
+          <li>Pause and resume ThreadTuck from its popup.</li>
+          <li>
+            Include the browser version, ThreadTuck version, steps to reproduce, expected result, and
+            actual result.
+          </li>
+        </ol>
+        <div class="notice" role="note">
+          <strong>Protect your privacy.</strong> Do not post private conversation text, screenshots
+          containing personal information, account details, passwords, or authentication tokens.
+        </div>
+      </section>
+
+      <section aria-labelledby="quick-fixes">
+        <h2 id="quick-fixes">Quick fixes</h2>
+        <div class="facts">
+          <article>
+            <h3>The popup says “Open ChatGPT”</h3>
+            <p>
+              Open a supported page on <code>chatgpt.com</code>, then open the ThreadTuck popup again.
+            </p>
+          </article>
+          <article>
+            <h3>Older turns are not folded</h3>
+            <p>
+              Confirm ThreadTuck is enabled, choose a visible-turn limit, and select
+              <strong>Apply to tab</strong>.
+            </p>
+          </article>
+          <article>
+            <h3>You want every turn visible</h3>
+            <p>
+              Select <strong>Show all hidden messages</strong>. ThreadTuck changes local visibility;
+              it does not delete messages.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="privacy-summary">
+        <h2 id="privacy-summary">Privacy summary</h2>
+        <p>
+          ThreadTuck runs locally in your browser. It does not collect or transmit conversation
+          text and it has no analytics, advertising, or extension-operated server.
+        </p>
+        <p><a href="privacy-policy.html">Read the full ThreadTuck Privacy Policy</a>.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <p>
+          ThreadTuck is an independent product. It is not affiliated with, endorsed by, or sponsored
+          by OpenAI. ChatGPT is a trademark of OpenAI.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

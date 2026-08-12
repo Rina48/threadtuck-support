@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title description">
+  <title id="title">ThreadTuck mark</title>
+  <desc id="description">Three conversation strips with a folded turquoise end.</desc>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="#0f172a" />
+  <rect x="28" y="31" width="72" height="14" rx="7" fill="#e2e8f0" />
+  <rect x="28" y="55" width="54" height="14" rx="7" fill="#94a3b8" />
+  <rect x="28" y="79" width="42" height="14" rx="7" fill="#64748b" />
+  <path d="M82 55h18v19L82 94V69h-7z" fill="#2dd4bf" />
+  <path d="m82 75 18-20v19L82 94z" fill="#14b8a6" />
+</svg>
